@@ -1,0 +1,8 @@
+    int m=12;
+    double n=4.0;
+    int a= m + n;
+    double b = m - n;
+    printf("%d \n",a);
+    printf("%.1f \n",b);
+    printf("%s",s);
+    printf("is the best place to learn and practice coding!");

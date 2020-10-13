@@ -1,0 +1,8 @@
+void solve(double meal_cost, int tip_percent, int tax_percent) {
+    double tip,tax;
+    double totalCost;
+    tip=(meal_cost * tip_percent)/100;
+    tax=(meal_cost * tax_percent)/100;
+    totalCost=meal_cost + tip + tax;
+    printf("%.0f",round(totalCost));
+}
